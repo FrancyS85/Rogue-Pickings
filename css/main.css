@@ -7,6 +7,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-size: 1em;
+	margin: 0 20px;
 }
 
 .container{
@@ -60,6 +61,7 @@ header nav {
 header nav ul {
 	margin: 0;
 	padding: 0;
+	list-style-type: none;
 }
 header nav ul li {
 	text-transform: uppercase;
@@ -159,6 +161,9 @@ footer span {
 /*--------- Tablet ---------*/
 
 @media (min-width: 768px) {
+	body {
+		margin: 0 40px;
+	}
 	.bottom-section {
 		display: flex;
 	}
@@ -182,6 +187,9 @@ footer span {
 /*--------- Desktop ---------*/
 
 @media (min-width: 1200px) {
+	body {
+		margin: 0 60px;
+	}
 	header nav ul li {
 		display: inline;
 	}
